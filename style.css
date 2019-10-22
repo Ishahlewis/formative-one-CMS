@@ -3,9 +3,7 @@
     font-weight: bolder;
     line-height: 1.5em;
 }
-.nav-colour{
-    background-color: white;
-}
+
 
 .action{
     background-image: url('assets/img/action2.jpg');
@@ -13,9 +11,6 @@
     background-repeat: no-repeat;
 }
 
-.page-header{
-    height: 2em;
-}
 
 .head-me{
     font-weight: bold;
@@ -35,4 +30,96 @@
     width: 25rem;
     color: black;
     border: .5px solid #ccc;
+}
+
+.contact-contain{
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.container-one{
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.contact-h6{
+    font-size: 1.5em;
+    color:#8b0000;
+}
+
+.action-h6{
+    font-size: 1.2em;
+    color:#8b0000;
+}
+
+.container-img{
+    height: 30vh;
+    margin-right: 1em;
+    margin-left: 1em;
+    background-image: url('assets/img/action2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: .2em;
+}
+
+.cont-action{
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.motto{
+    border-bottom: .5px dotted black;
+    padding-bottom: 2em;
+}
+
+.btn-restyle{
+    padding:.3em .6em;
+    margin-top: .5em;
+    background-color: #8b0000;
+    border:none;
+}
+
+.btn-restyle:hover{
+    background-color: #ccc;
+}
+
+.send{
+    background-color: #8b0000;
+    border: none;
+    padding:.5em 1em;
+}
+
+.send:hover{
+    background-color: #ccc;
+}
+
+.members{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.members>.action-h6{
+    flex: 1 0 90%;
+}
+
+.members>.card{
+    flex: 1 0 30%;
+}
+
+.members>.margin{
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.members>.filter-buttons{
+    flex: 1 0 90%;
+    margin-bottom: 1.5em;
+}
+
+.filter-buttons>.filter{
+    background-color: #8b0000;
+    border: none;
+}
+
+.filter:hover{
+    background-color: #ccc;
 }
