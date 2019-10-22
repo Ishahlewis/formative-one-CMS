@@ -1,0 +1,38 @@
+.homepg-desc{
+    color: black;
+    font-weight: bolder;
+    line-height: 1.5em;
+}
+.nav-colour{
+    background-color: white;
+}
+
+.action{
+    background-image: url('assets/img/action2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page-header{
+    height: 2em;
+}
+
+.head-me{
+    font-weight: bold;
+    color: white;
+    font-size: 3em;
+    margin-top: 1em;
+}
+
+.card-action{
+    display: flex;
+    padding: 3em 1em;
+}
+
+.card-action>.card{
+    margin-right: 1em;
+    margin-left: 1em;
+    width: 25rem;
+    color: black;
+    border: .5px solid #ccc;
+}
